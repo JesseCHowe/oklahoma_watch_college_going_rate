@@ -1,0 +1,168 @@
+.tick line{
+  display: none;
+}
+
+.y .domain,
+.x .domain{
+  display: none;
+}
+
+.container{
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+g .domain {
+  stroke: none;
+}
+.tick line {
+  stroke: none;
+}
+
+
+
+.container {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+}
+hr{
+  margin: 0;
+  padding: 0;
+}
+.barVisual {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: "gordita", helvetica, helvetica-neue, arial, sans-serif;
+}
+
+.bar {
+  fill: lightcoral;
+}
+.bar:nth-child(13) {
+}
+.barfull{
+  fill: lightcoral;
+  opacity: 0.5;
+}
+.barfull2:hover {
+  stroke: #000 ;
+}
+
+
+h1 {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: inherit;
+    line-height: 1.3;
+    text-rendering: optimizelegibility;
+    margin: 0;
+}
+h2 {
+  font-size: 0.8125rem;
+  color: #848484;
+  line-height: 1.62;
+  width: 100%;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.8125rem;
+  color: #848484;
+  line-height: 1.62;
+  padding: 10px 2px;
+  width: 100%;
+}
+
+.notes::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #efefef;
+}
+.notes p{
+  font-size: 0.55rem;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.theVisual{
+  position: relative;
+}
+
+.theText{
+  position: absolute;
+  top: 0.7rem;
+  right: 0;
+  max-width: 400px;
+}
+.theText h1{
+  font-size: 1.2rem;
+}
+.theText h2{
+  font-size: 0.7rem;
+}
+
+@media(max-width: 600px){
+ .theText{
+  position: relative;
+  max-width: 100%;
+}
+}
+
+
+
+.tableVisual .epic {
+  background: lightcoral;
+  color:#fff;
+  font-weight: bold;
+}
+
+.tableVisual table{
+  width: 100%;
+  max-width: 600px;
+    border-collapse: collapse;
+
+}
+th{
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+  .container{
+    display: block;
+   
+  }
+  .tableVisual{
+    display: none;
+  }
+@media(max-width: 500px){
+  .container{
+    display: none;
+  }
+  .tableVisual{
+    display: block;
+    margin: 2rem auto;
+  }
+}
+th{
+  text-align: center;
+}
+th:first-child{
+  text-align: left;
+}
+tr{
+  border-bottom: 1px solid #efefef;
+}
+td{
+  text-align: center;
+}
+td:first-child{
+  text-align: start;
+}
