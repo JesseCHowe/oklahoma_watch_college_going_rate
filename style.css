@@ -1,3 +1,5 @@
+
+
 .tick line{
   display: none;
 }
@@ -55,7 +57,7 @@ hr{
 
 h1 {
     font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 500;
     color: inherit;
     line-height: 1.3;
@@ -63,7 +65,7 @@ h1 {
     margin: 0;
 }
 h2 {
-  font-size: 0.8125rem;
+  font-size: 1rem;
   color: #848484;
   line-height: 1.62;
   width: 100%;
@@ -99,15 +101,15 @@ p {
 
 .theText{
   position: absolute;
-  top: 0.7rem;
+  top: -1.5rem;
   right: 0;
-  max-width: 400px;
+  max-width: 460px;
 }
 .theText h1{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .theText h2{
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 @media(max-width: 600px){
