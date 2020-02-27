@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - College Going Rates</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font: 10px sans-serif;
+  
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+.d3-tip {
+  line-height: 1;
+  padding: 12px;
+  background: #fff;
+  color: #333333;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+  .d3-tip span{
+    margin: 0;
+    display: block;
+  }
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+</style>
+<body>
+    <div class="barVisual">
+    <div class="theVisual">
+      <div class="theText">
+            <h1>College Going Rates: Largest Districts vs. Epic</h1>
+  <h2>Among Epic Charter Schools' more than 2,500 graduates in spring 2019, about 15% enrolled as freshmen in fall 2019 in an Oklahoma public college or university. Epic's rate was lower than those for the state's 10 largest school districts.</h2>
+      </div>
+    <svg class="container" viewBox="0 0 800 550" preserveAspectRatio="xMinYMin slice" width="100%" height="100%" style="width: 100%; overflow: hidden;"><svg width="800" height="550"></svg></svg>
+        <div class="tableVisual">
+    <table>
+  <tr>
+    <th>District</th>
+    <th>OK college enrollment</th>
+    <th>'19 Graduates*</th>
+    <th>% Enrolled</th>
+  </tr>
+  <tr>
+    <td>Midwest City-Del City**</td>
+    <td>807</td>
+    <td>831</td>
+    <td>97.1%</td>
+  </tr>
+  <tr>
+    <td>Edmond</td>
+    <td>1306</td>
+    <td>1678</td>
+    <td>77.8%</td>
+  </tr>
+  <tr>
+    <td>Norman</td>
+    <td>547</td>
+    <td>972</td>
+    <td>56.3%</td>
+  </tr>
+  <tr>
+    <td>Moore</td>
+    <td>789</td>
+    <td>1483</td>
+    <td>53.2%</td>
+  </tr>
+  <tr>
+    <td>Broken Arrow</td>
+    <td>523</td>
+    <td>1,091</td>
+    <td>47.9%</td>
+  </tr>
+  <tr>
+    <td>Union</td>
+    <td>571</td>
+    <td>1,193</td>
+    <td>47.9%</td>
+  </tr>
+        <tr>
+    <td>Tulsa</td>
+          <td>800</td>
+          <td>1,836</td>
+    <td> 43.6%</td>
+  </tr>
+        </tr>
+        <tr>
+    <td>Putnam City</td>
+          <td>481</td>
+          <td>1221</td>
+    <td>39.4%</td>
+  </tr>
+      </tr>
+        <tr>
+    <td>Oklahoma City</td>
+          <td>557</td>
+          <td>1602</td>
+    <td>34.8%</td>
+  </tr>
+    </tr>
+        <tr>
+    <td>Lawton</td>
+          <td>137</td>
+          <td>777</td>
+    <td>17.6%</td>
+  </tr>
+  </tr>
+        <tr class="epic">
+    <td>Epic One-on-One, Blended</td>
+          <td>370</td>
+          <td>2523</td>
+    <td>14.7%</td>
+  </tr>
+</table>
+  </div>
+  
+      </div>
+      <div class="notes">
+  <p>Note: District graduation totals are preliminary.</p>
+ <p>* Most Mid-Del graduates attend Rose State College, which offers them a scholarship for tuition and fees not covered by other non-loan financial aid.</p>
+    <p>Source: School districts; Epic Charter Schools; all public colleges and universities except Langston University.</p>
+    </div>
+  </div>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  
+<script>
+
+</script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
