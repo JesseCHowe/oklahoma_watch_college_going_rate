@@ -1,15 +1,15 @@
 const enrollmentData = [
   {
     district: "Midwest City-Del City*",
-    enrollment: 97.1,
+    enrollment: 98.1,
     graduates: 831,
-    enrolled: 807
+    enrolled: 815
   },
   {
     district: "Edmond",
-    enrollment: 77.8,
+    enrollment: 78.3,
     graduates: 1678,
-    enrolled: 1306
+    enrolled: 1314
   },
   {
     district: "Norman",
@@ -19,51 +19,51 @@ const enrollmentData = [
   },
   {
     district: "Moore",
-    enrollment: 53.2,
+    enrollment: 53.5,
     graduates: 1483,
-    enrolled: 789
+    enrolled: 793
   },
   {
     district: "Broken Arrow",
-    enrollment: 47.9,
+    enrollment: 48.2,
     graduates: 1091,
-    enrolled: 523
+    enrolled: 526
   },
   {
     district: "Union",
-    enrollment: 47.9,
+    enrollment: 48.4,
     graduates: 1193,
-    enrolled: 571
+    enrolled: 577
   },
   {
     district: "Tulsa",
-    enrollment: 43.6,
+    enrollment: 44.3,
     graduates: 1836,
-    enrolled: 800
+    enrolled: 814
   },
   {
     district: "Putnam City",
-    enrollment: 39.4,
+    enrollment: 39.9,
     graduates: 1221,
-    enrolled: 481
+    enrolled: 487
   },
   {
     district: "Oklahoma City",
-    enrollment: 34.8,
+    enrollment: 36.1,
     graduates: 1602,
-    enrolled: 557
+    enrolled: 578
   },
   {
     district: "Lawton",
-    enrollment: 17.6,
+    enrollment: 47.9,
     graduates: 777,
-    enrolled: 137
+    enrolled: 372
   },
   {
     district: "Epic One-on-One, Blended",
     enrollment: 14.7,
     graduates: 2523,
-    enrolled: 370
+    enrolled: 371
   }
 ];
 
