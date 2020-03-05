@@ -37,7 +37,6 @@ hr{
   max-width: 700px;
   display: block;
   margin: 0 auto;
-  margin-top: 50px;
   font-family: "gordita", helvetica, helvetica-neue, arial, sans-serif;
 }
 
@@ -99,12 +98,12 @@ p {
   position: relative;
 }
 
-.theText{
+/* .theText{
   position: absolute;
   top: -1.5rem;
   right: 0;
   max-width: 460px;
-}
+} */
 .theText h1{
   font-size: 1.4rem;
 }
