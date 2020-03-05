@@ -1,15 +1,13 @@
-
-
-.tick line{
+.tick line {
   display: none;
 }
 
 .y .domain,
-.x .domain{
+.x .domain {
   display: none;
 }
 
-.container{
+.container {
   display: block;
   margin: 0 auto;
   max-width: 600px;
@@ -22,14 +20,12 @@ g .domain {
   stroke: none;
 }
 
-
-
 .container {
   max-width: 960px;
   display: block;
   margin: 0 auto;
 }
-hr{
+hr {
   margin: 0;
   padding: 0;
 }
@@ -45,23 +41,22 @@ hr{
 }
 .bar:nth-child(13) {
 }
-.barfull{
+.barfull {
   fill: lightcoral;
   opacity: 0.5;
 }
 .barfull2:hover {
-  stroke: #000 ;
+  stroke: #000;
 }
 
-
 h1 {
-    font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 1.75rem;
-    font-weight: 500;
-    color: inherit;
-    line-height: 1.3;
-    text-rendering: optimizelegibility;
-    margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: inherit;
+  line-height: 1.3;
+  text-rendering: optimizelegibility;
+  margin: 0;
 }
 h2 {
   font-size: 1rem;
@@ -80,21 +75,21 @@ p {
   width: 100%;
 }
 
-.notes::before{
+.notes::before {
   content: "";
   display: block;
   width: 100%;
   height: 1px;
   background: #efefef;
 }
-.notes p{
+.notes p {
   font-size: 0.55rem;
   margin: 0;
   padding: 0;
   text-align: right;
 }
 
-.theVisual{
+.theVisual {
   position: relative;
 }
 
@@ -104,66 +99,62 @@ p {
   right: 0;
   max-width: 460px;
 } */
-.theText h1{
+.theText h1 {
   font-size: 1.4rem;
 }
-.theText h2{
+.theText h2 {
   font-size: 0.9rem;
 }
 
-@media(max-width: 600px){
- .theText{
-  position: relative;
-  max-width: 100%;
+@media (max-width: 600px) {
+  .theText {
+    position: relative;
+    max-width: 100%;
+  }
 }
-}
-
-
 
 .tableVisual .epic {
   background: lightcoral;
-  color:#fff;
+  color: #fff;
   font-weight: bold;
 }
 
-.tableVisual table{
+.tableVisual table {
   width: 100%;
   max-width: 600px;
-    border-collapse: collapse;
-
+  border-collapse: collapse;
 }
-th{
+th {
   text-align: left;
   border-bottom: 1px solid #000;
 }
-  .container{
-    display: block;
-   
-  }
-  .tableVisual{
+.container {
+  display: block;
+}
+.tableVisual {
+  display: none;
+}
+@media (max-width: 500px) {
+  .container {
     display: none;
   }
-@media(max-width: 500px){
-  .container{
-    display: none;
-  }
-  .tableVisual{
+  .tableVisual {
     display: block;
     margin: 2rem auto;
   }
 }
-th{
+th {
   text-align: center;
 }
-th:first-child{
+th:first-child {
   text-align: left;
 }
-tr{
+tr {
   border-bottom: 1px solid #efefef;
 }
-td{
+td {
   text-align: center;
 }
-td:first-child{
+td:first-child {
   text-align: start;
 }
